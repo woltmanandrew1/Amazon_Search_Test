@@ -11,6 +11,9 @@ ${START_URL} =  https://www.amazon.com
 ${SEARCH_TERM} =  Ferrari 458
 
 *** Test Cases ***
+Go to page
+    [Tags] Simple
+    Amazon.Load amazon
 Logged out user can search for products
     [Tags]  Current  Search
     Amazon.Search for Products

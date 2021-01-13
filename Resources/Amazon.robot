@@ -7,6 +7,10 @@ Resource  ../Resources/PO/Cart.robot
 Resource  ../Resources/PO/SignIn.robot
 
 *** Keywords ***
+Load amazon
+    LandingPage.Load
+    LandingPage.Verify Page Loaded
+
 Search for Products
     LandingPage.Load
     LandingPage.Verify Page Loaded
