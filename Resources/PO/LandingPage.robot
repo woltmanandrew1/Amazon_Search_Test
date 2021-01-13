@@ -1,12 +1,12 @@
 *** Settings ***
-Library  Selenium2Library
+Library  SeleniumLibrary
 
 *** Variables ***
 
 
 *** Keywords ***
 Load
-    Go To  ${START_URL}
+    Go To  http://www.amazon.com
 
 Verify Page Loaded
-    Wait Until Page Contains  Hello, Sign in
+    Wait Until Page Contains  Your Amazon.com

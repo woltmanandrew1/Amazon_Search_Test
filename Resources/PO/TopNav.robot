@@ -1,11 +1,14 @@
 *** Settings ***
+Documentation  Amazon top navigation
 Library  SeleniumLibrary
 
-*** Variables ***
-
-${TOP_NAV_LINK} =   css=#bs-example-navbar-collapse-1 > ul > li.active > a
-
 *** Keywords ***
-Select "Team" Page
-    click element  ${TOP_NAV_LINK}
-    Sleep  3s
+Search for Products
+    Enter Search Term
+    Submit Search
+
+Enter Search Term
+    Input Text  id=twotabsearchtextbox  Ferrari 458
+
+Submit Search
+    Click Button  xpath=//*[@id="nav-search"]/form/div[2]/div/input

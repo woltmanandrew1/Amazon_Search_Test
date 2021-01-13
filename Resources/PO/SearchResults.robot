@@ -1,9 +1,9 @@
 *** Settings ***
-Library  Selenium2Library
+Library  SeleniumLibrary
 
 *** Keywords ***
 Verify Search Completed
-    Wait Until Page Contains  results for "${SEARCH_TERM}"
+    Wait Until Page Contains  results for "Ferrari 458"
 
 Click Product Link
     [Documentation]  Clicks on the first product in the search results list
