@@ -12,7 +12,7 @@ ${SEARCH_TERM} =  Ferrari 458
 
 *** Test Cases ***
 Go to page
-    [Tags] Simple
+    [Tags]  Simple
     Amazon.Load amazon
 Logged out user can search for products
     [Tags]  Current  Search
