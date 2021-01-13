@@ -12,7 +12,7 @@ ${SEARCH_TERM} =  Ferrari 458
 
 *** Test Cases ***
 Logged out user can search for products
-    [Tags]  Current
+    [Tags]  Current Search
     Amazon.Search for Products
 
 Logged out user can view a product
