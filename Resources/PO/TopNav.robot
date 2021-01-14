@@ -11,4 +11,4 @@ Enter Search Term
     Input Text  id=twotabsearchtextbox  Ferrari 458
 
 Submit Search
-    Click Button  xpath=//*[@id="nav-search"]/form/div[2]/div/input
+    Click Button  xpath=//*[@id="nav-search-submit-button"]
